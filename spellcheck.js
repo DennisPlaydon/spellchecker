@@ -9,7 +9,7 @@ const WORD_COUNT = WORDS.items().reduce((partialSum, a) => partialSum + a[1], 0)
 const P = (word) => WORDS.get(word) / WORD_COUNT;
 
 const correction = (word) => {
-    let maxP = 0;
+    let maxP = -1;
     let correction = {};
     candidates(word).map((x) => {
         let probability = P(x);
@@ -32,7 +32,6 @@ const candidates = (word) => {
     let edits2Away = known(edits2(word));
     if (edits2Away.length) return edits2Away;
 
-    console.log("No alternatives");
     return [word];
 };
 
