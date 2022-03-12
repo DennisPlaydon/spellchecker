@@ -1,0 +1,23 @@
+{
+    "name": "spellcheck",
+    "version": "1.0.0",
+    "description": "This is a model of a spell checker that works with 80-90% accuracy. This is an implementation from [Peter Novig's](http://www.norvig.com/spell-correct.html) whitepaper he wrote. This is a re-implementation to learn some techniques of how a spell checker works.",
+    "main": "spellcheck.js",
+    "dependencies": {
+        "pycollections": "^0.9.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": ""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DennisPlaydon/spellchecker.git"
+    },
+    "author": "Dennis Playdon",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/DennisPlaydon/spellchecker/issues"
+    },
+    "homepage": "https://github.com/DennisPlaydon/spellchecker#readme"
+}
